@@ -8,5 +8,9 @@ public class PrintArgumentLengths
     System.out.println("Usage: java PrintArgumentLengths <any number of arguments>");
     return;
     }
+    for (String arg: args) 
+    { 
+      System.out.println("arg: " + arg + ", length: " + arg.length()); 
+    }
   }
 }
