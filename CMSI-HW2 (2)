@@ -4,6 +4,8 @@ public class PrintArgumentLengthsa
   {
    if (args.length == 0) 
   	{ 
+  	    System.out.println("Usage: java PrintArgumentLengths <any number of arguments>");
+
     }
   }
 }
